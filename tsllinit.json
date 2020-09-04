@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier",
+    "tslint-react-hooks"
+  ],
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts"]
+  },
+  "complierOptions": {
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ]
+  },
+  "rules": {
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "prettier": true,
+    "no-shadowed-variable": false
+  }
+}
