@@ -20,7 +20,13 @@
     "start:dev": "ts-node -r tsconfig-paths/register src/index.ts",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "Typescript",
+    "relative paths import",
+    "tslint",
+    "editorconfig",
+    "prettier"
+  ],
   "author": "",
   "license": "ISC"
 }
